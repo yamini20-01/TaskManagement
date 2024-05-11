@@ -1,4 +1,4 @@
-Task Manager
+![LandingWelcomePage](https://github.com/yamini20-01/TaskManagement/assets/108978064/4fdaf2c0-fa53-4cd4-b4a0-d0dd24bae028)Task Manager
 
  Project Overview
  
@@ -123,6 +123,14 @@ Set Up the Backend (Server):
 	                   cd taskbackend
                     
                 2.2 Start the backend server
+
+
+
+		
+
+
+
+
 
 
 
