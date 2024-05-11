@@ -15,11 +15,15 @@ Task Manager
  ● User Authentication: Users can register an account or log in to their existing
  account using a username and password. Authentication is secured using
  JWTtokens.
+ 
  ● Task Management: Users can add tasks with details such as ID, name,
  description, issued date, and status.
+ 
  ● Userscanviewall tasks, view task details, update tasks, and delete tasks.
+ 
  ● Upcoming Tasks: Users can view a list of upcoming tasks to stay organized
  and plan their work.
+ 
  ● AccountManagement: Users can delete their account if they wish to no longer
  use the application
 
