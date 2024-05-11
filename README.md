@@ -114,7 +114,7 @@ Task Manager
                    
                1.3 Start the frontend development server.
                
-                   npm start
+                         npm start
 
 Set Up the Backend (Server):
 
