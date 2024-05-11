@@ -130,10 +130,11 @@ Set Up the Backend (Server):
 
  Accessing the Application:
  
-            Once both the backend and frontend servers are running, you can access the Task Manager application by navigating to local API in your web browser.                                                                
+            Once both the backend and frontend servers are running, you can access the 
+	    Task Manager application by navigating to local API in your web browser.                                                                
             When you are navigating to the API , the landing page will be Welcome Page where User can Login or Register.
 
-     	   http://localhost:3000 
+     	    http://localhost:3000 
 
 
 
