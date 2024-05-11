@@ -1,7 +1,8 @@
-												Task Manager
+											Task Manager
 
 
  Project Overview
+
  
  The Task Manager is a full stack web application designed to help users manage
  their tasks efficiently. It provides features for users to register an account, log in, add
@@ -9,10 +10,12 @@
  tasks, and delete their account. The application is built using a combination of
  front-end and back-end technologies to provide a seamless user experience
 
+
  Technologies Used
  
  Front-end:  ReactJs, React Router, Axios, CSS
  Back-end: SpringBoot, Node.js, MySQl Database, JWT (JSON Web Tokens),Spring Security,Lombok,Express.
+
 
  Features
  
@@ -30,6 +33,8 @@
  
  ● AccountManagement: Users can delete their account if they wish to no longer
  use the application
+
+
 
  Endpoints/APIs
  
@@ -57,7 +62,9 @@
  
 
 
+
  Authentication:
+
  
  Authentication is a crucial aspect of any web application to ensure that only
  authorised users can access the system's resources. In the Task Manager project,
@@ -73,8 +80,10 @@
  to be transferred between two parties.
  
  ● MySQLDataBase: Usedfor data access .
+
  
  Implementation Details
+
  
  ● UserRegistration:
  
@@ -84,6 +93,7 @@
  ○ The password is securely encoded using a password encoder (not
  explicitly mentioned in the code snippets, but assumed to be
  implemented for security).
+
  
  ● UserAuthentication:
  
@@ -140,6 +150,8 @@ Set Up the Backend (Server):
 
 
   FrontEnd Output Images:
+  You can see my result here:
+  https://github.com/yamini20-01/TaskManagement/tree/main/taskfrontend/OutputImages
 
   
 
