@@ -22,23 +22,26 @@ public class TaskController {
 
     @GetMapping
     public List<Task> getAllTasks() {
-
+        //to get all tasks
         return taskRepository.findAll();
     }
 
+    //to save task
     @PostMapping
     public ResponseEntity<Task> createTask(@RequestBody Task task) {
         Task savedTask = taskRepository.save(task);
         return new ResponseEntity<>(savedTask, HttpStatus.CREATED);
     }
 
+    //to retrieve task based on Id
     @GetMapping("/{id}")
     public ResponseEntity<Task> getTaskById(@PathVariable Long id) {
         Task task = taskRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Task not found with id: " + id));
         return ResponseEntity.ok(task);
     }
-
+    
+    //to update the task based on id
     @PutMapping("/{id}")
     public ResponseEntity<Task> updateTask(@PathVariable Long id, @RequestBody Task taskDetails) {
         Task task = taskRepository.findById(id)
@@ -52,6 +55,7 @@ public class TaskController {
         return ResponseEntity.ok(updatedTask);
     }
 
+    //to delete task based on Id
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteTask(@PathVariable Long id) {
         Task task = taskRepository.findById(id)
@@ -61,6 +65,7 @@ public class TaskController {
         return ResponseEntity.ok().build();
     }
 
+    //to get the near upcoming tasks
     @GetMapping("/upcoming")
     public List<Task> getUpcomingTasks() {
         // Get current date
@@ -68,7 +73,6 @@ public class TaskController {
 
         // Retrieve tasks with dates greater than the current date
         List<Task> upcomingTasks = taskRepository.findByIssuedDateAfter(currentDate.toString());
-
         return upcomingTasks;
     }
 
