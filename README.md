@@ -116,7 +116,7 @@
  
                1.1 Clone the Project Repository:
                
-	                  git clone https://github.com/yamini20-01/TaskManagement
+	                  git clone https://github.com/yamini20-01/TaskManagement.git
 	                  cd taskfrontend
                    
                1.2 Install these dependencies using npm command:
