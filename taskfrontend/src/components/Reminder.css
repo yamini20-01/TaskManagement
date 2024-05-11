@@ -1,0 +1,38 @@
+.reminder-container {
+    background-color: rgba(174, 159, 236, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; 
+    
+  }
+  
+  .reminder-container h2 {
+    margin: 0; 
+  }
+  
+  .reminder-content {
+    text-align: center;
+  }
+  
+  .reminder-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+   
+  }
+  
+  .reminder-table th,
+  .reminder-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .reminder-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .reminder-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

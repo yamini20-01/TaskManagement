@@ -1,0 +1,62 @@
+.container{
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-office-items-picture-desk-on-the-desktop-picture-image_666140.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.update-task-container {
+    background-color: rgba(174, 159, 236, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Set the initial width to 80% */
+    max-width: 500px; /* Limit the maximum width to 500px */
+    color: aliceblue;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .update-task-container h2 {
+    margin: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .btn-update {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-back {
+    background-color: #36ebf4;
+    color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .update-task-container {
+      width: 90%; /* Adjust the width for smaller screens */
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .btn {
+      margin-right: 0; /* Remove margin-right for smaller screens */
+      margin-top: 10px; /* Add margin-top for smaller screens */
+    }
+  }

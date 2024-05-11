@@ -1,0 +1,27 @@
+.container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.upcoming-tasks-container {
+    background-color: rgba(174, 159, 236, 0.8); 
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 100px;
+    width:500px;
+    color:aliceblue;
+}
+
+.upcoming-tasks-container h2 {
+    margin: 0; /* Remove default margin */
+  }
+
+
+.upcoming-tasks-content {
+    text-align: center; 
+  }

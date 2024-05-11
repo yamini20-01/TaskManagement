@@ -1,0 +1,67 @@
+/* AllTasks.css */
+
+.container {
+    background-image: url('https://img.freepik.com/free-vector/time-management-marketers-teamwork-media-planning-media-representation-control-reach-your-client-best-media-plan_335657-23.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1715126400&semt=ais_user');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-table-container {
+    background-color: rgba(158, 141, 225, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.task-table-container table {
+    width: 100%;
+}
+
+.task-table-container th,
+.task-table-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-table-container th {
+    background-color: #f2f2f2;
+}
+
+.task-table-container th:first-child,
+.task-table-container td:first-child {
+    padding-left: 20px;
+}
+
+.task-table-container th:last-child,
+.task-table-container td:last-child {
+    padding-right: 20px;
+}
+
+.task-table-container td {
+    background-color: white; /* Set background color for table data */
+}
+
+.task-table-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.task-table-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.task-table-container button:hover {
+    text-decoration: underline;
+}

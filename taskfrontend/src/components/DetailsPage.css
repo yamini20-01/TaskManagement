@@ -1,0 +1,67 @@
+.container {
+    background-image: url('https://img.freepik.com/free-vector/time-management-marketers-teamwork-media-planning-media-representation-control-reach-your-client-best-media-plan_335657-23.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1715126400&semt=ais_user');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .task-details-container {
+    background-color: rgba(158, 141, 225, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Limit the maximum width of the container */
+    width: 90%; /* Set the initial width to 90% */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .task-details-container table {
+    width: 100%;
+  }
+  
+  .task-details-container th,
+  .task-details-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-details-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .task-details-container th:first-child,
+  .task-details-container td:first-child {
+    padding-left: 20px;
+  }
+  
+  .task-details-container th:last-child,
+  .task-details-container td:last-child {
+    padding-right: 20px;
+  }
+  
+  .task-details-container td {
+    background-color: white; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .task-details-container {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .task-details-container th,
+    .task-details-container td {
+      padding: 8px; /* Adjust padding for smaller screens */
+    }
+  
+    .task-details-container th:first-child,
+    .task-details-container td:first-child,
+    .task-details-container th:last-child,
+    .task-details-container td:last-child {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }

@@ -1,0 +1,377 @@
+{
+	"info": {
+		"_postman_id": "0f1d5353-747d-4e24-892a-da51dd4e43a1",
+		"name": "TaskManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24432416",
+		"_collection_link": "https://cloudy-satellite-396858.postman.co/workspace/New-Team-Workspace~b8431bb7-26b9-49fa-861a-9853efb53040/collection/24432416-0f1d5353-747d-4e24-892a-da51dd4e43a1?action=share&source=collection_link&creator=24432416"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "hema",
+						"username": "hema"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"jerry\",\r\n    \"password\":\"jerry\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"hema\",\r\n    \"password\":\"hema\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "AddTask",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"3\",\r\n    \"name\":\"NodeJS App\",\r\n    \"description\":\"Movie Application\",\r\n    \"issuedDate\":\"22/10/2023\",\r\n    \"status\":\"Completed\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/tasks/1"
+			},
+			"response": []
+		},
+		{
+			"name": "AllTasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/tasks"
+			},
+			"response": []
+		},
+		{
+			"name": "GettingAllTasks",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/tasks"
+			},
+			"response": []
+		},
+		{
+			"name": "RegisterUser",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"yamini\",\r\n    \"password\":\"yamini\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/register"
+			},
+			"response": []
+		},
+		{
+			"name": "RegisterUser",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"yamini\",\r\n    \"password\":\"yamini\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "registerUser",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"yamini\",\r\n    \"password\":\"yamini\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/register"
+			},
+			"response": []
+		},
+		{
+			"name": "userlogin",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "registerUser",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTask",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"3\",\r\n    \"name\":\"Django App\",\r\n    \"description\":\"AI Crud App Application\",\r\n    \"issuedDate\":\"30/11/2023\",\r\n    \"status\":\"Completed\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/tasks/2"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteTask",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/tasks/1"
+			},
+			"response": []
+		},
+		{
+			"name": "UpcomingTask",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUser",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "yamini",
+						"username": "yamini"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/users/yamini"
+			},
+			"response": []
+		},
+		{
+			"name": "AddTask",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "hema",
+						"username": "hema"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic eWFtaW5pOmFtaW5p",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"3\",\r\n    \"name\":\"NodeJS App\",\r\n    \"description\":\"Task Application\",\r\n    \"issuedDate\":\"25/10/2023\",\r\n    \"status\":\"In Progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/tasks"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTask",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ForbiddenPutRequestWithoutAuthentication",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"4\",\r\n    \"name\":\"Movie App\",\r\n    \"description\":\"Crud Application which is enables users to book the tickets\",\r\n    \"issuedDate\":\"10/05/2024\",\r\n    \"status\":\"Not yet Started\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/tasks/4"
+			},
+			"response": []
+		},
+		{
+			"name": "GetTaskById",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "hema",
+						"username": "hema"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/tasks/4"
+			},
+			"response": []
+		},
+		{
+			"name": "GetTaskByIdRequestWithoutAuthForbidden",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/tasks/4"
+			},
+			"response": []
+		},
+		{
+			"name": "loginWithoutAuth",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"ve3\",\r\n    \"password\":\"ve3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/login"
+			},
+			"response": []
+		}
+	]
+}

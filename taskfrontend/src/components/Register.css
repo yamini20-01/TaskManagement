@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220522/pngtree-business-team-banner-task-management-image_1374989.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .register-container{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; 
+    margin-left: 7%;
+    margin-top: -3%;
+  }
+  
+  .register-wrapper {
+    width: 26%; 
+    background-color: rgba(158, 141, 225, 0.5); 
+    padding: 20px; 
+    border-radius: 10px; 
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    color:aliceblue;
+    cursor: pointer;
+    background-color:blueviolet;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
