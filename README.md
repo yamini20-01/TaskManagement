@@ -101,6 +101,35 @@ Task Manager
 
  SetUp Project:
 
+ Set Up the Frontend (Server):
+ 
+               1.1 Clone the Project Repository:
+               
+	                  git clone https://github.com/yamini20-01/TaskManagement
+	                  cd taskfrontend
+                   
+               1.2 Install these dependencies using npm command:
+               
+	                  npm install react react-router-dom axios react-icons bootstrap
+                   
+               1.3 Start the frontend development server.
+               
+                   npm start
+
+Set Up the Backend (Server):
+
+                2.1 Navigate to the Backend Directory:
+
+	                   cd taskbackend
+                    
+                2.2 Start the backend server
+
+
+
+
+                
+
+
 
  
  
