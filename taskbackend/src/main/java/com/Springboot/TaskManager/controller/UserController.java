@@ -18,7 +18,6 @@ import java.util.Base64;
 
 @RestController
 @RequestMapping("/api")
-
 public class UserController {
     private final UserService userService;
     private final PasswordEncoder passwordEncoder;
@@ -29,6 +28,7 @@ public class UserController {
         this.authenticationManager = authenticationManager;
     }
 
+    //to register the new user
     @PostMapping("/register")
     public ResponseEntity<String> registerUser(@RequestBody UserRegistrationRequest request) {
         User newUser = new User();
@@ -39,6 +39,7 @@ public class UserController {
                 .body("User registered successfully");
     }
 
+    //to login the user
     @PostMapping("/login")
     public ResponseEntity<?> login(HttpServletRequest request) {
         String authorizationHeader = request.getHeader("Authorization");
@@ -60,15 +61,13 @@ public class UserController {
         }
     }
 
-
+    // to delete user based on Id
     @DeleteMapping("/users/{username}")
     public ResponseEntity<String> deleteUser(@PathVariable String username) {
         // Logic to delete the user from the database
         userService.deleteUserByUsername(username);
         return ResponseEntity.ok("User deleted successfully");
     }
-
-
 
 }
 
