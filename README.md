@@ -1,4 +1,5 @@
-![LandingWelcomePage](https://github.com/yamini20-01/TaskManagement/assets/108978064/4fdaf2c0-fa53-4cd4-b4a0-d0dd24bae028)Task Manager
+												Task Manager
+
 
  Project Overview
  
@@ -114,7 +115,7 @@
                    
                1.3 Start the frontend development server.
                
-                         npm start
+                          npm start
 
 Set Up the Backend (Server):
 
@@ -123,6 +124,26 @@ Set Up the Backend (Server):
 	                   cd taskbackend
                     
                 2.2 Start the backend server
+
+			  run the SpringBoot Application
+
+
+ Accessing the Application:
+ 
+            Once both the backend and frontend servers are running, you can access the Task Manager application by navigating to  http://localhost:3000  local API in your web browser.                                                                
+            When you are navigating to the API , the landing page will be Welcome Page where User can Login or Register.
+
+
+
+
+  FrontEnd Output Images:
+
+  
+
+   	
+
+
+  
 
 
 
